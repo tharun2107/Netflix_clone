@@ -1,0 +1,634 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+ overflow-x: hidden;
+}
+.main{
+    width: 85%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./netflixbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+padding: 10px 8%;
+}
+.navbar img{
+height: 60px;
+width: 120px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.navbar button{
+    color:white;
+padding: 5px 5px;
+
+width: 90px;
+height: 30px;
+border-radius: 5px;
+}
+.lang{
+    background:transparent;
+    border: 1px solid #fff ;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    
+}
+/* .drop-icon{
+    height: 5px;
+    width: 5px;
+} */
+.sign{
+    background-color: red;
+    font-weight: bold;
+}
+.header-content{
+   text-align: center;
+   position: relative;
+   top: 21%;
+  
+
+}
+.header-content h1{
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.header-content h3{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: bold;
+
+   
+}
+.header-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 200;
+}
+.email-signup{
+    display: flex;
+    align-items: center;
+   overflow: hidden;
+   width: 550px;
+    background:transparent;
+ margin-left: 27%;
+ height: 30px;
+ gap: 3px;
+
+}
+.email-signup input{
+    flex: 1;
+    border: 2px solid #111;
+    border-radius: 16px;
+   
+    padding: 15px 30px ;
+    color: #111;
+}
+.email{
+    
+    background: transparent;
+    border-radius: 4px;
+}
+.submit-btn{
+    height: 30px;
+    background: red;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 5px 30px ;
+    border-radius: 4px;
+  
+
+}
+input::placeholder{
+    color: #111;
+    font-weight: 200;
+}
+
+.card{
+    padding: 10px 10px;
+    background-color: rgb(90,26,52);
+    color: #fff;
+    width: 320px;
+    height: 200px;
+border-radius: 20px;
+margin-left: 22px;
+cursor: pointer;
+transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+.card h2{
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin: 10px 10%;
+  
+}   
+.card p{
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 400;
+    margin-left: 22px;
+    font-weight: 200;
+}
+#cost{
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10%;
+}
+.mid-part h2{
+    position: relative;
+    left:12%;
+   
+}
+.mid-part{
+    margin: 20px 10px;
+    height: 300px;
+}
+.card:hover{
+    background-color: rgba(128, 0, 128, 0.86);
+    width: 330px;
+    height: 210px;
+   
+}
+.trending button{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px;
+    width: 100px;
+    height: 30px;
+    margin: 8px 10px;
+    font-weight: 200;
+}
+.trending img{
+    margin-top :2px;
+}
+.trending{
+    margin-top:100px;
+    position: relative;
+    left: 12%;
+}
+.photo-slider{
+    margin-top: 15px;
+    display:flex;
+    gap: 38px;
+  
+}
+.photo-slider img{
+    border-radius: 10px;
+}
+.photo-slider img:hover{
+    transition: transform 0.3s ease;
+    width: 200px;
+    height: 250px;
+   
+}
+.mbrship{
+    margin-top: 30px;
+    height: 420px;
+}
+.text-box{
+    background: linear-gradient(to right, rgb(65, 22, 42), rgb(27, 14, 33));
+    max-width: 74%;
+    height: 300px;
+   border-radius: 20px;
+}
+.inn{
+ padding: 80px 38px;
+
+}
+.inn h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.inn p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.rea{
+    background: linear-gradient(to right, rgb(28, 27, 54), rgb(64, 19, 24));
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px 15px;
+
+}
+.rea-cards{
+    display: flex;
+    gap: 10px;
+}
+
+.faq h2{
+    font-weight: 500;
+    font-size:25px;
+ 
+}
+.faqs{
+  
+    width: 100%;
+    max-width: 60%;
+}
+.faqs li{
+    list-style: none;
+    width: 100%;
+    padding :5px;
+}
+.faqs li label{
+    display: flex;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 22px;
+    background: #303030;
+    margin-bottom: 3px;
+    cursor: pointer;
+
+}
+label::after{
+    content: '+';
+    position: absolute;
+   right: 39%;
+   font-size: 30px;
+   transition: transform 0.5s;
+}
+ input[type="radio"]{
+    display: none;
+} 
+.ans{
+    background: #303030;
+    text-align: left;
+ font-size: 22px;
+ font-weight: 400;
+    padding: 0px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+  
+}
+.faqs input[type="radio"]:checked+ label + .ans{
+  max-height: 600px;
+padding :30px 20px;
+
+}
+.faqs input[type="radio"]:checked+ label::after{
+    transform: rotate(135deg);
+}
+.faqs input[type="radio"]:not(:checked) + label + .ans {
+    max-height: 0;
+    padding: 0;
+}
+.end-form p{
+    margin-top: 50px;
+    margin-left: 15%;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: normal;
+}
+.end-form form{
+   
+    margin-left: 15%;
+    margin-bottom: 0px;
+}
+.end-form p{
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    margin-left: 15%;
+    justify-content: space-between;
+    max-width: 60%;
+}
+.links ul li{
+    list-style: none;
+    color: #fff;
+    text-decoration: underline;
+    margin: 15px;
+    
+}
+.last-button{
+    color:white;
+    padding: 8px 5px;
+    
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background:transparent;
+    border: 1px solid #fff ;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 20px;
+
+}
+.last-button img{
+    margin: 1px;
+}
+#India{
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 800px) {
+    .main{
+        width: 100%;
+    }
+.navbar img{
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+}
+.header-content h1{
+    font-size: 40px;
+}
+.header-content h3{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.header-content p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.email-signup{
+    margin-left: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    
+   
+}
+.submit-btn{
+    height: 40px;
+    background: red;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 5px 5px ;
+    border-radius: 2px;
+  
+
+}
+.email-signup input{
+    flex: 1;
+    border: 2px solid #111;
+    border-radius: 16px;
+   
+    padding: 15px 30px ;
+    color: #111;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+  gap: 10px;
+  height: 700px;
+}
+.card{
+    padding: 10px 10px;
+    background-color: rgb(90,26,52);
+    color: #fff;
+    width: 350px;
+    height: 200px;
+border-radius: 20px;
+position: relative;
+left: 0px;
+cursor: pointer;
+transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+.trending{
+    margin-top: 650px;
+    margin-left: 0px;
+}
+.trending button{
+   display: block;
+   width: 80%;
+ 
+}
+.trending button img{
+   float: right;
+ }
+ .photo-slider img{
+    border-radius: 8px;
+    height: 140px;
+    width: 190px;
+    cursor: pointer;
+}
+.photo-slider img:hover{
+    border-radius: 8px;
+    height: 145px;
+    width: 190px;
+    
+}
+.inn{
+    padding: 20px 25px;
+   
+   }
+   .inn h1{
+    font-size: 26px;
+    font-weight: 500;
+   }
+   .inn p{
+    font-size: 20px;
+    font-weight: 400;
+   }
+   .inn br{
+    display: none;
+   }
+   .rea-cards{
+    display: flex;
+    flex-direction: column;
+   
+   }
+   .rea{
+    height: 150px;
+    width: 75%;
+   }
+   footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+   }
+   .mid-part{
+    margin: 0px;
+   
+}
+
+.end-form form{
+
+ gap: 10px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .mbrship {
+        margin-left: 0;
+    }
+    .trending{
+       
+        position: relative;
+        left:15px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    gap: 30px;
+    }
+    .navbar button{
+        margin: 3px;
+    }
+    .header-content p{
+        font-size: 16px;
+        height: 72px;
+        width: 256px;
+        padding: 3px;
+    }
+    .mid-part h2{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .mid-part{
+        margin-top: 20px;
+        position: relative;
+        left:15px;
+    }
+    .cards{
+        margin: 0;
+    }
+    .card{
+        margin: 0;
+        width: 240px;
+        height: 200px;
+     
+    }
+   .mbrship h2{
+    font-size: 20px;
+    width: 200px;
+   }
+   .end-form{
+    width: 240px;
+    font-size: 16px;
+   }
+   .faq h2{
+    font-size: 20px;
+   }
+
+label::after{
+    content: '+';
+    position: absolute;
+   
+   right: 28%;
+   font-size: 30px;
+   transition: transform 0.5s;
+}
+.faqs li label{
+    font-size: 18px;
+}
+}
+@media (min-width:768px) and (max-width: 1024px){
+  
+    .card{
+        height: 200px;
+        
+    }
+    .photo-slider img{
+        height: 180px;
+    }
+    .rea{
+        width: 150px;
+    }
+    .trending{
+        position: relative;
+        left:8%;
+        margin-top: 50px;
+    }
+    footer{
+       margin-left: 8%;
+    }
+    .email-signup{
+        margin-left: 17%;
+    }
+    .interior h2{
+        font-size: 22px;
+        margin-left: 0px;
+    }
+    .interior p{
+        font-size: 16px;
+        margin-left: 0px;
+    }
+}
+@media (min-width:1024px)  and (max-width: 1135px){
+
+    .card{
+       height: 220px;
+      
+    }
+    
+    .trending{
+        position: relative;
+        left:12%;
+    }
+    .mid-part{
+        position: relative;
+        left:1%;
+    }
+    .mid-part h2{
+      font-size: 23px;
+    }
+   
+    footer{
+        margin-left: 12%;
+     }
+   
+     .last-button,#India{
+        position: relative;
+        left: 4.5%;
+     }
+     .main{
+        width: 100%;
+     }
+     .header-content p{
+        margin-left: 2%;
+     }
+  .rea{
+    width: 200px;
+  }
+  .photo-slider img{
+    width: 160px;
+  }
+}
+@media (min-width:560px) and (max-width: 800px){
+
+    .email-signup{
+      
+        margin-left: 15%;
+        max-width: 450px;
+    }
+.trending{
+    margin-top: 600px;
+}
+}
+@media (min-width:1135px) and (max-width:1350px){
+   .rea{
+    width:200px;
+   }
+   .main{
+    overflow-x: hidden;
+   }
+}
